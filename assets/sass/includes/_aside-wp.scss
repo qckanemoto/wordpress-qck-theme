@@ -1,0 +1,34 @@
+.site-aside {
+    .screen-reader-text, .search-submit {
+        display: none;
+    }
+
+    select, .tagcloud, #wp-calendar, .textwidget {
+        margin: 1.5em 0;
+        width: 100%;
+    }
+
+    #wp-calendar {
+        caption {
+            font-weight: bold;
+            border-bottom: 1px solid $border-color;
+            padding-bottom: .5em;
+        }
+        thead tr th {
+            padding-top: .5em;
+        }
+        td {
+            text-align: center;
+        }
+    }
+
+    ul.children {
+        margin: 0;
+        li {
+            margin-left: 1.2em;
+            &:last-child {
+                border-bottom: none;
+            }
+        }
+    }
+}

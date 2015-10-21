@@ -1,0 +1,199 @@
+html {
+  background: #fff; }
+
+body {
+  color: #383838;
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  word-wrap: break-word; }
+
+a {
+  color: #7b2a04;
+  text-decoration: none; }
+  a:hover {
+    opacity: .8;
+    text-decoration: underline; }
+
+hr {
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #fff;
+  margin: 1em 0; }
+  hr.with-margin {
+    margin: 50px 0; }
+  hr.with-no-margin {
+    margin: 0; }
+
+input, select, textarea {
+  border-radius: 0.3em;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  padding: 0.5em 0.75em; }
+
+iframe, img, embed, object, video {
+  max-width: 100%; }
+
+.site-content h1, .site-content h2, .site-content h3, .site-content h4, .site-content h5, .site-content h6, body#tinymce h1, body#tinymce h2, body#tinymce h3, body#tinymce h4, body#tinymce h5, body#tinymce h6 {
+  line-height: 1.3;
+  margin: 1em 0; }
+  .site-content h1 a, .site-content h2 a, .site-content h3 a, .site-content h4 a, .site-content h5 a, .site-content h6 a, body#tinymce h1 a, body#tinymce h2 a, body#tinymce h3 a, body#tinymce h4 a, body#tinymce h5 a, body#tinymce h6 a {
+    color: #383838; }
+  .site-content h1 .header-link, .site-content h2 .header-link, .site-content h3 .header-link, .site-content h4 .header-link, .site-content h5 .header-link, .site-content h6 .header-link, body#tinymce h1 .header-link, body#tinymce h2 .header-link, body#tinymce h3 .header-link, body#tinymce h4 .header-link, body#tinymce h5 .header-link, body#tinymce h6 .header-link {
+    margin-left: 0.2em;
+    color: #7b2a04;
+    opacity: 0; }
+  .site-content h1:hover .header-link, .site-content h2:hover .header-link, .site-content h3:hover .header-link, .site-content h4:hover .header-link, .site-content h5:hover .header-link, .site-content h6:hover .header-link, body#tinymce h1:hover .header-link, body#tinymce h2:hover .header-link, body#tinymce h3:hover .header-link, body#tinymce h4:hover .header-link, body#tinymce h5:hover .header-link, body#tinymce h6:hover .header-link {
+    opacity: 1; }
+
+.site-content h1, body#tinymce h1 {
+  font-size: 2.3em; }
+
+.site-content h2, body#tinymce h2 {
+  font-size: 1.9em; }
+
+.site-content blockquote, body#tinymce blockquote {
+  border-left: 5px solid #ddd;
+  color: #777;
+  padding: 0.5em 1em; }
+  .site-content blockquote p:first-child, body#tinymce blockquote p:first-child {
+    margin-top: 0; }
+  .site-content blockquote p:last-child, body#tinymce blockquote p:last-child {
+    margin-bottom: 0; }
+
+.site-content table, body#tinymce table {
+  width: 100%;
+  border-collapse: collapse; }
+  .site-content table td, .site-content table th, body#tinymce table td, body#tinymce table th {
+    padding: 0.5em 1em;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    text-align: left; }
+
+.site-content p, .site-content ol, .site-content ul, .site-content dl, .site-content table, .site-content blockquote, .site-content kbd, .site-content pre, .site-content samp, body#tinymce p, body#tinymce ol, body#tinymce ul, body#tinymce dl, body#tinymce table, body#tinymce blockquote, body#tinymce kbd, body#tinymce pre, body#tinymce samp {
+  margin: 1.5em 0; }
+
+.site-content ul, .site-content ol, body#tinymce ul, body#tinymce ol {
+  padding-left: 1em; }
+  .site-content ul ul, .site-content ul ol, .site-content ol ul, .site-content ol ol, body#tinymce ul ul, body#tinymce ul ol, body#tinymce ol ul, body#tinymce ol ol {
+    margin: 0; }
+
+.site-content ul.inline, .site-content ol.inline, body#tinymce ul.inline, body#tinymce ol.inline {
+  list-style: none;
+  padding-left: 0; }
+  .site-content ul.inline li, .site-content ol.inline li, body#tinymce ul.inline li, body#tinymce ol.inline li {
+    float: left;
+    margin-right: 1em; }
+    .site-content ul.inline li:last-child, .site-content ol.inline li:last-child, body#tinymce ul.inline li:last-child, body#tinymce ol.inline li:last-child {
+      margin-right: 0; }
+
+.site-content dt, body#tinymce dt {
+  font-weight: bold; }
+
+.site-content dd, body#tinymce dd {
+  margin-left: 2em; }
+
+.site-content p, .site-content ol, .site-content ul, .site-content dl, body#tinymce p, body#tinymce ol, body#tinymce ul, body#tinymce dl {
+  line-height: 1.5; }
+
+.site-content ol, .site-content ul, body#tinymce ol, body#tinymce ul {
+  list-style-position: inside; }
+
+.site-content code, body#tinymce code {
+  font-family: Consolas, Monaco, "Andale Mono", monospace;
+  font-size: 0.85em;
+  margin: 0 2px;
+  padding: 0 5px;
+  border: 1px solid #ddd;
+  background-color: rgba(221, 221, 221, 0.1);
+  border-radius: 3px; }
+
+.site-content pre, body#tinymce pre {
+  border: 1px solid #ccc;
+  background-color: rgba(221, 221, 221, 0.1);
+  overflow: auto;
+  padding: 10px 15px;
+  line-height: 1em;
+  border-radius: 3px; }
+  .site-content pre code, body#tinymce pre code {
+    margin: 0;
+    padding: 0;
+    word-wrap: normal;
+    white-space: pre;
+    border: none;
+    background: transparent; }
+
+.site-content .article-wrapper, body#tinymce .article-wrapper {
+  margin: 50px 0; }
+
+.site-content article, body#tinymce article {
+  width: 100%;
+  float: left; }
+  .site-content article header, body#tinymce article header {
+    margin-bottom: 50px; }
+    .site-content article header .panel, body#tinymce article header .panel {
+      padding: 1em 1.5em;
+      background-color: rgba(249, 135, 82, 0.2); }
+      .site-content article header .panel h1, body#tinymce article header .panel h1 {
+        margin: 0; }
+        .site-content article header .panel h1, .site-content article header .panel h1 a, body#tinymce article header .panel h1, body#tinymce article header .panel h1 a {
+          color: #f98752; }
+      .site-content article header .panel ul.meta, .site-content article header .panel ul.tags, body#tinymce article header .panel ul.meta, body#tinymce article header .panel ul.tags {
+        list-style: none;
+        margin: 0;
+        padding: 0; }
+        .site-content article header .panel ul.meta li, .site-content article header .panel ul.tags li, body#tinymce article header .panel ul.meta li, body#tinymce article header .panel ul.tags li {
+          display: inline-block;
+          color: rgba(56, 56, 56, 0.5);
+          font-size: 0.95em;
+          margin-right: 0.5em; }
+          .site-content article header .panel ul.meta li:last-child, .site-content article header .panel ul.tags li:last-child, body#tinymce article header .panel ul.meta li:last-child, body#tinymce article header .panel ul.tags li:last-child {
+            margin-right: 0; }
+      .site-content article header .panel ul.meta, body#tinymce article header .panel ul.meta {
+        float: right; }
+      .site-content article header .panel ul.icons, body#tinymce article header .panel ul.icons {
+        margin: 0;
+        padding: 0; }
+        .site-content article header .panel ul.icons li, body#tinymce article header .panel ul.icons li {
+          margin-right: 0; }
+  .site-content article p:last-child, body#tinymce article p:last-child {
+    margin-bottom: 0; }
+  .site-content article footer, body#tinymce article footer {
+    margin-top: 50px; }
+  .site-content article .footnotes, body#tinymce article .footnotes {
+    font-size: 0.9em; }
+
+.site-content .comments, body#tinymce .comments {
+  margin-bottom: 50px; }
+
+.site-content .pagination, body#tinymce .pagination {
+  margin: 50px 0;
+  padding: 0 10%;
+  text-align: center; }
+  .site-content .pagination .btn:first-child, body#tinymce .pagination .btn:first-child {
+    margin-right: 1em; }
+
+.site-content #search-results .article-wrapper, body#tinymce #search-results .article-wrapper {
+  margin: 1em 0; }
+
+.site-content #search-results article header, body#tinymce #search-results article header {
+  margin-bottom: 0; }
+  .site-content #search-results article header .panel, body#tinymce #search-results article header .panel {
+    padding: 0;
+    background-color: #fff; }
+    .site-content #search-results article header .panel h1, body#tinymce #search-results article header .panel h1 {
+      font-size: 1.5em; }
+      .site-content #search-results article header .panel h1 a.tag, body#tinymce #search-results article header .panel h1 a.tag {
+        font-size: 0.7em; }
+
+.site-content .share-buttons-wrapper .easy-social-buttons-container, body#tinymce .share-buttons-wrapper .easy-social-buttons-container {
+  float: right; }
+  .site-content .share-buttons-wrapper .easy-social-buttons-container .esb:last-child, body#tinymce .share-buttons-wrapper .easy-social-buttons-container .esb:last-child {
+    margin-right: 0; }
+
+html {
+  background-color: #eee;
+  width: 100%; }
+  html body, html body.wp-autoresize, html body#tinymce {
+    background-color: #fff;
+    margin: 0 !important;
+    padding: 15px 20px !important;
+    max-width: 840px; }
