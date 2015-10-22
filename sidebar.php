@@ -6,9 +6,9 @@ global $qckConfig;
 ?>
 
 <aside class="site-aside">
-    <div class="inner <?php if ($qckConfig['sticky_sidebar']): ?>sticky<?php endif; ?>">
+    <div class="inner">
         <div class="block">
-            <form role="search" method="get" action="<?php bloginfo('url'); ?>">
+            <form method="get" action="<?php bloginfo('url'); ?>">
                 <input type="search" id="search" name="s" placeholder="<?php echo $qckConfig['str_search']; ?>" />
             </form>
         </div>
@@ -18,9 +18,7 @@ global $qckConfig;
         <hr class="with-no-margin margin-bottom"/>
 
         <?php if (is_active_sidebar('sidebar-1')): ?>
-            <div id="widget-area" class="widget-area" role="complementary">
-                <?php dynamic_sidebar('sidebar-1'); ?>
-            </div>
+            <?php dynamic_sidebar('sidebar-1'); ?>
         <?php endif; ?>
     </div>
 </aside>

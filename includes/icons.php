@@ -7,7 +7,7 @@ global $qckConfig;
 
 <?php if ($qckConfig['icons']['rss']): ?>
 <li>
-    <a href="<?php echo bloginfo('rss2_url'); ?>">
+    <a href="<?php bloginfo('rss2_url'); ?>">
         <i class="fa fa-fw fa-rss"></i>
     </a>
 </li>

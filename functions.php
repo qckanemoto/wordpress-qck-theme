@@ -6,17 +6,18 @@ $qckConfig = require __DIR__ . '/config.php';
 add_editor_style('assets/css/editor-style.css');
 
 // add some theme supports.
+add_theme_support('automatic-feed-links');
 add_theme_support('title-tag');
 add_theme_support('post-thumbnails');
 
 // register sidebar.
 add_action('widgets_init', function () {
     register_sidebar( array(
-        'id'            => 'sidebar-1',
+        'id' => 'sidebar-1',
         'before_widget' => '<div class="block">',
-        'after_widget'  => '</div>',
-        'before_title'  => '<h1>',
-        'after_title'   => '</h1>',
+        'after_widget' => '</div>',
+        'before_title' => '<h1>',
+        'after_title' => '</h1>',
     ) );
 });
 
