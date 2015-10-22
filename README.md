@@ -2,6 +2,10 @@
 
 A simple and customizable theme for WordPress which is a sister project of [jekyll-qck-theme](https://github.com/qckanemoto/jekyll-qck-theme).
 
+## Screen shot
+
+![image](https://cloud.githubusercontent.com/assets/4360663/10666510/fa4698a0-790c-11e5-9e6f-88f936cd630e.png)
+
 ## Features
 
 * Anchor links for each headings
