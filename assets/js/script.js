@@ -1,5 +1,4 @@
-$ = jQuery.noConflict();
-$(function () {
+(function ($) {
     // focus on search input with '/' key.
     $("body").on("keyup", function (e) {
         e.stopPropagation();
@@ -27,12 +26,6 @@ $(function () {
         $(this).wrap($a);
     });
 
-    // stick aside.
-    var topSpacing = $(".site-aside").css("padding-top").replace(/px/, "");
-    $(".site-aside .sticky").sticky({
-        topSpacing: parseInt(topSpacing)
-    });
-
     // social buttons.
     $(".share-buttons").each(function () {
         $(this).easySocialButtons({
@@ -42,4 +35,4 @@ $(function () {
             waitCounter: '<span>Wait...</span>'
         });
     });
-});
+})(jQuery);

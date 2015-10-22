@@ -1,1 +1,1 @@
-$(function(){$("h1, h2, h3, h4, h5, h6").each(function(){var a=$(this).attr("id");a&&$(this).append($("<a />").addClass("header-link").attr("href","#"+a).html('<i class="fa fa-link"></i>'))})});
+!function(a){a("h1, h2, h3, h4, h5, h6").each(function(){var h=a(this).attr("id");h&&a(this).append(a("<a />").addClass("header-link").attr("href","#"+h).html('<i class="fa fa-link"></i>'))})}(jQuery);
