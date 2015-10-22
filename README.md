@@ -30,7 +30,7 @@ Modify [config.php](config.php) as you like.
 
 ### Customizing styles
 
-Modify [assets/sass/modules/base/\_variables.scss](assets/sass/modules/base/_variables.scss) as you like.
+Modify [assets/sass/includes/base/\_variables.scss](assets/sass/includes/base/_variables.scss) as you like.
 
 And compile scss to css like below:
 
