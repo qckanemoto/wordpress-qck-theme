@@ -184,11 +184,6 @@ iframe, img, embed, object, video {
       .site-content #search-results article header .panel h1 a.tag, body#tinymce #search-results article header .panel h1 a.tag {
         font-size: 0.7em; }
 
-.site-content .share-buttons-wrapper .easy-social-buttons-container, body#tinymce .share-buttons-wrapper .easy-social-buttons-container {
-  float: right; }
-  .site-content .share-buttons-wrapper .easy-social-buttons-container .esb:last-child, body#tinymce .share-buttons-wrapper .easy-social-buttons-container .esb:last-child {
-    margin-right: 0; }
-
 html {
   background-color: #eee;
   width: 100%; }

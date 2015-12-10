@@ -17,7 +17,11 @@ return array(
     'str_404_message' => 'Sorry, the page cannot be found.',
 
     // Social.
-    'share_buttons' => false,
+    'share_buttons' => array(
+        'twitter' => true,
+        'facebook' => '',  // appId here. e.g. 123456789012345
+        'hatena' => false,
+    ),
 
     // Icons.
     'icons' => array(
