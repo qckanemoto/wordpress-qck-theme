@@ -19,7 +19,6 @@ global $qckConfig;
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700italic,400italic" rel="stylesheet">
 
-    <link href="<?php bloginfo('template_url'); ?>/assets/lib/easy-social-buttons/jquery.easy-social-buttons.css" rel="stylesheet">
     <link href="<?php bloginfo('template_url'); ?>/assets/css/style.css" rel="stylesheet">
 
     <?php wp_head(); ?>

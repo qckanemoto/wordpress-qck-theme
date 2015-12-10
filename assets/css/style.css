@@ -236,7 +236,8 @@ select {
  *    `input` and others.
  */
 button,
-html input[type="button"], input[type="reset"],
+html input[type="button"],
+input[type="reset"],
 input[type="submit"] {
   -webkit-appearance: button;
   /* 2 */
@@ -691,11 +692,11 @@ a.btn:hover {
 .disabled {
   opacity: 0.7; }
 
-.clearfix:before, .site-container:before, .site-aside ul.icons:before, .site-content ul.inline:before, .site-content ol.inline:before, body#tinymce ul.inline:before, body#tinymce ol.inline:before, .site-content .article-wrapper:before, body#tinymce .article-wrapper:before, .site-content .share-buttons-wrapper:before, body#tinymce .share-buttons-wrapper:before, .clearfix:after, .site-container:after, .site-aside ul.icons:after, .site-content ul.inline:after, .site-content ol.inline:after, body#tinymce ul.inline:after, body#tinymce ol.inline:after, .site-content .article-wrapper:after, body#tinymce .article-wrapper:after, .site-content .share-buttons-wrapper:after, body#tinymce .share-buttons-wrapper:after {
+.clearfix:before, .site-container:before, .site-aside ul.icons:before, .site-content ul.inline:before, .site-content ol.inline:before, body#tinymce ul.inline:before, body#tinymce ol.inline:before, .site-content .article-wrapper:before, body#tinymce .article-wrapper:before, .clearfix:after, .site-container:after, .site-aside ul.icons:after, .site-content ul.inline:after, .site-content ol.inline:after, body#tinymce ul.inline:after, body#tinymce ol.inline:after, .site-content .article-wrapper:after, body#tinymce .article-wrapper:after {
   content: " ";
   display: table; }
 
-.clearfix:after, .site-container:after, .site-aside ul.icons:after, .site-content ul.inline:after, .site-content ol.inline:after, body#tinymce ul.inline:after, body#tinymce ol.inline:after, .site-content .article-wrapper:after, body#tinymce .article-wrapper:after, .site-content .share-buttons-wrapper:after, body#tinymce .share-buttons-wrapper:after {
+.clearfix:after, .site-container:after, .site-aside ul.icons:after, .site-content ul.inline:after, .site-content ol.inline:after, body#tinymce ul.inline:after, body#tinymce ol.inline:after, .site-content .article-wrapper:after, body#tinymce .article-wrapper:after {
   clear: both; }
 
 html {
@@ -997,11 +998,6 @@ iframe, img, embed, object, video {
       font-size: 1.5em; }
       .site-content #search-results article header .panel h1 a.tag, body#tinymce #search-results article header .panel h1 a.tag {
         font-size: 0.7em; }
-
-.site-content .share-buttons-wrapper .easy-social-buttons-container, body#tinymce .share-buttons-wrapper .easy-social-buttons-container {
-  float: right; }
-  .site-content .share-buttons-wrapper .easy-social-buttons-container .esb:last-child, body#tinymce .share-buttons-wrapper .easy-social-buttons-container .esb:last-child {
-    margin-right: 0; }
 
 .site-content .pagination .screen-reader-text {
   display: none; }
