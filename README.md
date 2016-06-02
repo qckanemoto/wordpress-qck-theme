@@ -4,7 +4,7 @@ A simple and customizable theme for WordPress which is a sister project of [jeky
 
 ## Screen shot
 
-![image](https://cloud.githubusercontent.com/assets/4360663/10666510/fa4698a0-790c-11e5-9e6f-88f936cd630e.png)
+![image](https://cloud.githubusercontent.com/assets/4360663/15741149/5404c4c0-28f3-11e6-8c74-1503ec1c7c90.png)
 
 ## Features
 
