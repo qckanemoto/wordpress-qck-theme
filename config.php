@@ -27,9 +27,9 @@ return array(
     'icons' => array(
         'rss' => true,
         'email' => '',
-        'github' => '',
+        'github' => 'ttskch',
         'bitbucket' => '',
-        'twitter' => '',
+        'twitter' => 'ttskch',
         'facebook' => '',
         'google_plus' => '',
         'tumblr' => '',
