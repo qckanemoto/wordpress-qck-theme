@@ -1,6 +1,6 @@
 # wordpress-tch-theme
 
-A simple and customizable theme for WordPress which is a sister project of [jekyll-tch-theme](https://github.com/qckanemoto/jekyll-tch-theme).
+A simple and customizable theme for WordPress which is a sister project of [jekyll-tch-theme](https://github.com/ttskch/jekyll-tch-theme).
 
 ## Screen shot
 
@@ -23,7 +23,7 @@ A simple and customizable theme for WordPress which is a sister project of [jeky
 
 ```bash
 $ cd /path/to/wordpress/wp-content/themes/
-$ git clone git@github.com:qckanemoto/wordpress-tch-theme.git
+$ git clone git@github.com:ttskch/wordpress-tch-theme.git
 ```
 
 ## Usage
@@ -53,4 +53,4 @@ Even when you use share buttons feature, you can hide share buttons for some spe
 
 # See also
 
-[WordPress.Skeleton](https://github.com/qckanemoto/wordpress.skeleton) is so useful to create/maintain WordPress projects especially to developers.
+* [WordPress.Skeleton](https://github.com/ttskch/wordpress.skeleton) is so useful to create/maintain WordPress projects especially to developers.

@@ -7,7 +7,7 @@ global $tchConfig;
 
 <footer class="site-footer">
     <div class="inner">
-        <span>Powered by <a href="https://github.com/qckanemoto/wordpress-tch-theme">TchTheme</a></span>
+        <span>Powered by <a href="https://github.com/ttskch/wordpress-tch-theme">TchTheme</a></span>
     </div>
 </footer>
 
