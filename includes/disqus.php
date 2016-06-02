@@ -1,13 +1,13 @@
 <?php
 /*
-Template Name: QckTheme
+Template Name: TchTheme
 */
-global $qckConfig;
+global $tchConfig;
 ?>
 
 <div id="disqus_thread"></div>
 <script type="text/javascript">
-    var disqus_shortname = '<?php echo $qckConfig['disqus']; ?>';
+    var disqus_shortname = '<?php echo $tchConfig['disqus']; ?>';
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
         dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';

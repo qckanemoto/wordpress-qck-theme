@@ -1,8 +1,8 @@
 <?php
 /*
-Template Name: QckTheme
+Template Name: TchTheme
 */
-global $qckConfig;
+global $tchConfig;
 ?>
 
 <?php get_header(); ?>
@@ -13,7 +13,7 @@ global $qckConfig;
             <article>
                 <header>
                     <div class="panel">
-                        <h1><?php echo $qckConfig['str_search_resulsts']; ?></h1>
+                        <h1><?php echo $tchConfig['str_search_resulsts']; ?></h1>
                     </div>
                 </header>
                 <section class="post-content">

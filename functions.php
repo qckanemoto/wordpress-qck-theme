@@ -1,6 +1,6 @@
 <?php
-global $qckConfig;
-$qckConfig = require __DIR__ . '/config.php';
+global $tchConfig;
+$tchConfig = require __DIR__ . '/config.php';
 
 // set style of TinyMCE.
 add_editor_style('assets/css/editor-style.css');
@@ -49,7 +49,7 @@ add_filter('the_content', function ($content) {
 });
 
 // disable multiple selection and category-pop feature on edit-post view.
-if ($qckConfig['simple_category_chooser']) {
+if ($tchConfig['simple_category_chooser']) {
     add_action('admin_print_footer_scripts', function () {
         echo <<<EOT
         <script>
@@ -64,7 +64,7 @@ EOT;
 }
 
 // allow everyone to post entries which include iframe such as youtube embedded players.
-if ($qckConfig['allow_post_include_iframe']) {
+if ($tchConfig['allow_post_include_iframe']) {
     add_filter('content_save_pre', function ($content) {
         global $allowedposttags;
         $allowedposttags['iframe'] = array(

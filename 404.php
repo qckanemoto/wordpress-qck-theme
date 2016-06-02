@@ -1,8 +1,8 @@
 <?php
 /*
-Template Name: QckTheme
+Template Name: TchTheme
 */
-global $qckConfig;
+global $tchConfig;
 ?>
 
 <?php get_header(); ?>
@@ -17,7 +17,7 @@ global $qckConfig;
                     </div>
                 </header>
                 <section class="post-content">
-                    <p><?php echo $qckConfig['str_404_message']; ?></p>
+                    <p><?php echo $tchConfig['str_404_message']; ?></p>
                 </section>
             </article>
         </div>

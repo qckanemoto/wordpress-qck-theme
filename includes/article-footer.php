@@ -1,8 +1,8 @@
 <?php
 /*
-Template Name: QckTheme
+Template Name: TchTheme
 */
-global $qckConfig;
+global $tchConfig;
 ?>
 
 <footer>

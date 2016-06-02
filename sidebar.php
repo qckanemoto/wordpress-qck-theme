@@ -1,15 +1,15 @@
 <?php
 /*
-Template Name: QckTheme
+Template Name: TchTheme
 */
-global $qckConfig;
+global $tchConfig;
 ?>
 
 <aside class="site-aside">
     <div class="inner">
         <div class="block">
             <form method="get" action="<?php bloginfo('url'); ?>">
-                <input type="search" id="search" name="s" placeholder="<?php echo $qckConfig['str_search']; ?>" />
+                <input type="search" id="search" name="s" placeholder="<?php echo $tchConfig['str_search']; ?>" />
             </form>
         </div>
         <ul class="icons">

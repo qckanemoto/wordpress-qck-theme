@@ -1,8 +1,8 @@
 <?php
 /*
-Template Name: QckTheme
+Template Name: TchTheme
 */
-global $qckConfig;
+global $tchConfig;
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
@@ -27,13 +27,13 @@ global $qckConfig;
 
 <header class="site-header">
     <div class="inner clearfix">
-        <?php if ($qckConfig['avatar']): ?>
+        <?php if ($tchConfig['avatar']): ?>
         <a href="<?php bloginfo('url'); ?>">
-            <img class="avatar" src="<?php echo $qckConfig['avatar']; ?>" alt=""/>
+            <img class="avatar" src="<?php echo $tchConfig['avatar']; ?>" alt=""/>
         </a>
         <?php endif; ?>
         <h1 class="clearfix">
-            <a class="title <?php if (!$qckConfig['avatar']) { echo 'slim'; } ?>" href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a>
+            <a class="title <?php if (!$tchConfig['avatar']) { echo 'slim'; } ?>" href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a>
             <p class="description"><?php bloginfo('description'); ?></p>
         </h1>
     </div>

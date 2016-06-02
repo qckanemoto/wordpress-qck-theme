@@ -1,6 +1,6 @@
-# wordpress-qck-theme
+# wordpress-tch-theme
 
-A simple and customizable theme for WordPress which is a sister project of [jekyll-qck-theme](https://github.com/qckanemoto/jekyll-qck-theme).
+A simple and customizable theme for WordPress which is a sister project of [jekyll-tch-theme](https://github.com/qckanemoto/jekyll-tch-theme).
 
 ## Screen shot
 
@@ -23,7 +23,7 @@ A simple and customizable theme for WordPress which is a sister project of [jeky
 
 ```bash
 $ cd /path/to/wordpress/wp-content/themes/
-$ git clone git@github.com:qckanemoto/wordpress-qck-theme.git
+$ git clone git@github.com:qckanemoto/wordpress-tch-theme.git
 ```
 
 ## Usage
