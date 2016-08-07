@@ -53,4 +53,4 @@ Even when you use share buttons feature, you can hide share buttons for some spe
 
 # See also
 
-* [WordPress.Skeleton](https://github.com/ttskch/wordpress.skeleton) is so useful to create/maintain WordPress projects especially to developers.
+* [WordPress.Skeleton](https://github.com/ttskch/wordpress.skeleton) is so useful to create/maintain WordPress projects especially for developers.
