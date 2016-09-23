@@ -1,6 +1,6 @@
-# wordpress-tch-theme
+# wordpress-ttskch-theme
 
-A simple and customizable theme for WordPress which is a sister project of [jekyll-tch-theme](https://github.com/ttskch/jekyll-tch-theme).
+A simple and customizable theme for WordPress which is a sister project of [jekyll-ttskch-theme](https://github.com/ttskch/jekyll-tch-theme).
 
 ## Screen shot
 
@@ -23,7 +23,7 @@ A simple and customizable theme for WordPress which is a sister project of [jeky
 
 ```bash
 $ cd /path/to/wordpress/wp-content/themes/
-$ git clone git@github.com:ttskch/wordpress-tch-theme.git
+$ git clone git@github.com:ttskch/wordpress-ttskch-theme.git
 ```
 
 ## Usage
