@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: TchTheme
+Template Name: TtskchTheme
 */
 global $tchConfig;
 ?>

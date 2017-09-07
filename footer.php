@@ -1,13 +1,13 @@
 <?php
 /*
-Template Name: TchTheme
+Template Name: TtskchTheme
 */
 global $tchConfig;
 ?>
 
 <footer class="site-footer">
     <div class="inner">
-        <span>Powered by <a href="https://github.com/ttskch/wordpress-ttskch-theme">TchTheme</a></span>
+        <span>Powered by <a href="https://github.com/ttskch/wordpress-ttskch-theme">TtskchTheme</a></span>
     </div>
 </footer>
 
